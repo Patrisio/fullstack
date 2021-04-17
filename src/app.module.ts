@@ -33,7 +33,7 @@ import { join } from 'path';
       }
     }),
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..','build', 'index.html'),
+      rootPath: join(__dirname, '..','build'),
     }),
   ],
   controllers: [AppController],
